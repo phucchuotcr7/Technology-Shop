@@ -1,0 +1,219 @@
+body {
+    background-color: #526270;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0px;
+}
+
+.Technology-top {
+    background-color: antiquewhite;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-navbar {
+    margin: 2px 30px;
+    padding: 0px;
+}
+.header-wrapper {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-wrapper-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper-logo-page-name {
+    margin-left: 5px;
+    padding-left: 12px;
+    font-size: 1.25rem;
+    border-left: 2px solid #25304b;
+    color: #25304b;
+}
+
+.header-navbar ul {
+    font-size: 0.8rem;
+}
+
+.technology-searchbar {
+    width: 840px;
+    display: flex;
+    flex: 0.7;
+}
+
+.technology-searchbar form {
+    flex: 1;
+}
+
+
+.container > nav {
+    background-color: black;
+}
+
+.technology-searchbar .search {
+    font-size: 14px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
+
+.technology-searchbar .search-btn {
+    border: none;
+    padding: 0 25px;
+    outline: none;
+}
+
+.header-cart {
+    display: none !important;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 0 40px;
+    margin: 0 10px;
+}
+
+/* Fomr-Login Start */
+.form-body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.modal-dialog {
+    display: flex;
+}
+
+.modal-content {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border: none !important;
+}
+
+.modal-body {
+    padding: 3rem !important;
+}
+
+.modal-body-header {
+    padding-bottom: 30px;
+    color: #007bff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.modal-body .form-control {
+    border-radius: 0;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 13px;
+}
+
+.account-remember-and-forgot {
+    margin: 10px 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.remember-account {
+    display: flex;
+    align-items: center;
+}
+
+.remember-account input {
+    margin-right: 10px;
+}
+
+.login-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto !important;
+    width: 80%;
+}
+
+.login-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.modal-right {
+    padding: 12px;
+    background-color: #007bff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.sign-up {
+    float: right;
+    font-size: 12px;
+}
+
+.return-home-page {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.return-home-page i {
+    margin-right: 5px;
+}
+/* Form-Login End */
+
+/* Form-Sign Start */
+.sign {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.sign-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/* Form-Sign End */
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content ul {
+    list-style: none;
+    font-size: 16px;
+}
+
+.footer-content ul li {
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+

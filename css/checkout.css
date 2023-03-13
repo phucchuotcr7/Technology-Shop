@@ -1,0 +1,189 @@
+body {
+    background-color: #526270;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0px;
+}
+
+.Technology-top {
+    background-color: antiquewhite;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-navbar {
+    margin: 2px 30px;
+    padding: 0px;
+}
+.header-wrapper {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-wrapper-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper-logo-page-name {
+    margin-left: 5px;
+    padding-left: 12px;
+    font-size: 1.25rem;
+    border-left: 2px solid #25304b;
+    color: #25304b;
+}
+
+.header-navbar ul {
+    font-size: 14px;
+}
+
+.technology-searchbar {
+    width: 840px;
+    display: flex;
+    flex: 0.7;
+}
+
+.technology-searchbar form {
+    flex: 1;
+}
+
+
+.container > nav {
+    background-color: black;
+}
+
+.technology-searchbar .search {
+    font-size: 14px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
+
+.technology-searchbar .search-btn {
+    border: none;
+    padding: 0 25px;
+    outline: none;
+}
+
+.header-cart {
+    display: none !important;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 0 40px;
+    margin: 0 10px;
+}
+
+/* Cart-Header-Product Start */
+.cart-header-products {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.cart-header-products-text {
+    width: 320px;
+}
+/* Cart-Header-Product End */
+
+.payment-method {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-method-bank {
+    width: 300px;
+    padding: 10px;
+    background-color: #526270;
+    color: #fff;
+}
+
+.method-bank-text {
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(235, 229, 229);
+}
+
+.payment-method-bank label {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.payment-method-cash {
+    width: 300px;
+    padding: 10px;
+    background-color: #526270;
+    color: #fff;
+}
+
+.payment-method-cash label {
+    font-size: 15px;
+    margin: 0px;
+}
+
+/* Summary */
+.summary{
+    background-color: #ddd;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+    font-size: 14px;
+}
+
+.summary select {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.summary input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.summary .btn {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0;
+}
+/* Summary End */
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content ul {
+    list-style: none;
+    font-size: 16px;
+}
+
+.footer-content ul li {
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+
