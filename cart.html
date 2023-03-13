@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style-cart.css">
+    <script src="slider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="Technology-top">
+    <nav class="row ml-0 mr-0 ">
+      <nav class="navbar navbar-expand-lg navbar-light col header-navbar" style="padding: 0px;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="technology.html"> <i class="fas fa-home"></i> Home Page <span class="sr-only">(current)</span></a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> <i class="fas fa-phone"></i> Contact </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> <i class="fas fa-mail-bulk"></i> Feedback </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> <i class="fas fa-question"></i> Support </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-globe"></i>
+                    Language
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Việt Nam</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </div>
+                </li>
+            </ul style="font-weight: 400; font-size: 1rem;">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="sign-up.html" class="nav-link">Sign-Up</a>
+              </li>
+              <li class="nav-item">
+                  <a href="login.html" class="nav-link">Log In</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </nav>
+    <div class="row header-wrapper">
+      <!--Logo Start-->
+      <div class="header-wrapper-logo">
+        <a href="technology.html"><img src="images/logoTechnology.png" alt="" style="width: 200px;"></a>
+        <div class="header-wrapper-logo-page-name">Shopping Cart</div>
+      </div>
+      <!--Logo End-->
+      <!-- <div class="card-body" style="padding-right: 0px;"> -->
+      <div class="technology-searchbar">
+        <form action="" style="margin-left: 20px;">
+          <input  type="text" class="form-control search" name="" id="" placeholder="What are you looking for ?">
+        </form>
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="header-cart">
+        <i class="header-cart-icon fas fa-shopping-cart"></i>
+      </div>
+    </div>
+    <!-- </div> -->
+    </div>
+    <!--Breadcrumb Start-->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb" style="background-color: #fff; border-radius: 0;">
+        <li class="breadcrumb-item"><a href="technology.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+      </ol>
+    </nav>
+    <!--Breadcrumb End-->
+    <div class="container">
+      <div class="row">
+      <div class="col-8" style="margin-top: 20px;">
+        <div class="row cart-header-products">
+              <div class="cart-header-products-text">Product</div>
+            <div>Unit price</div>
+            <div class="cart-add-number">Amount</div>
+            <div>Amount of money</div>
+            <div>Manipulation</div>
+        </div>
+      <!--Cart-product-one Start-->
+        <div class="row cart-show-products">
+          <div class="cart-show-products-img-text">
+            <div class="cart-show-products-checkbox"></div>
+              <img src="images/laptop1.jpg" alt="" class="cart-show-products-img">
+              <div class="cart-show-products-text">SURFACE LAPTOP GO | CORE I5 / RAM 8GB / SSD 256GB</div>
+            </div>
+            <div>22.500.000 VNĐ</div>
+            <div class="cart-add-number">
+              <button class="cart-add-number-btn">-</button>
+              <input type="text" value="1" id="" class="cart-input-number">
+              <button class="cart-add-number-btn">+</button>
+            </div>
+            <div>22.500.000 VNĐ</div>
+            <div>Delete</div>
+        </div>
+      <!--Cart-product-one End-->
+      <!--Cart-product-two Start-->
+        <div class="row cart-show-products">
+          <div class="cart-show-products-img-text">
+            <div class="cart-show-products-checkbox"></div>
+              <img src="images/phone1.webp" alt="" class="cart-show-products-img">
+              <div class="cart-show-products-text">Genuine iPhone 11 Pro Max VN/A Black 4GB / 64GB</div>
+            </div>
+            <div>15.790.000 VNĐ</div>
+            <div class="cart-add-number">
+              <button class="cart-add-number-btn">-</button>
+              <input type="text" value="1" id="" class="cart-input-number">
+              <button class="cart-add-number-btn">+</button>
+            </div>
+            <div>15.790.000 VNĐ</div>
+            <div>Delete</div>
+        </div>
+      <!--Cart-product-two End-->
+      <!--Cart-product-three Start-->
+        <div class="row cart-show-products">
+          <div class="cart-show-products-img-text">
+            <div class="cart-show-products-checkbox"></div>
+              <img src="images/keyboard1.jpg" alt="" class="cart-show-products-img">
+              <div class="cart-show-products-text">Akko World Tour Keyboard - Tokyo 3084 - Genuine Warranty</div>
+            </div>
+            <div>1.420.000 VNĐ</div>
+            <div class="cart-add-number">
+              <button class="cart-add-number-btn">-</button>
+              <input type="text" value="1" id="" class="cart-input-number">
+              <button class="cart-add-number-btn">+</button>
+            </div>
+            <div>1.420.000 VNĐ</div>
+            <div>Delete</div>
+        </div>
+      <!--Cart-product-three End-->
+      </div>
+      <!-- Summary Start-->
+      <div class="col-4 summary" style="margin-top: 20px;">
+        <div><h5><b>Summary</b></h5></div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">ITEMS 3</div>
+                        <div class="col text-right">39.710.000 VNĐ</div>
+                    </div>
+                    <form>
+                        <p>SHIPPING</p>
+                        <select><option class="text-muted">Standard-Delivery - 40.000 VNĐ</option></select>
+                        <p>GIVE CODE</p>
+                        <input id="code" placeholder="Enter your code">
+                    </form>
+                    <hr>
+                    <div class="row">
+                        <div class="col">TOTAL PRICE</div>
+                        <div class="col text-right">39.750.000 VNĐ</div>
+                    </div>
+                    <a href="checkout.html"><button class="btn">CHECKOUT</button></a>
+      </div>
+      <!-- Summary End-->
+      </div>
+    </div>
+    <footer class="row" style="margin-top: 40px;">
+      <div class="card col">
+        <div class="card-body">
+          <div class="footer-content">
+            <ul>THEGIOICONGNGHE
+              <li><i class="fas fa-window-maximize"></i> Website: thegioicongnghe.com</li>
+              <li><i class="fas fa-phone"></i> Phone: 0905471684</li>
+              <li><i class="fas fa-envelope"></i> Email: thegioicongnghe.com@gmail.com</li>
+              <li><i class="fas fa-map-marker-alt"></i> Address: Dien Bien Phu Street, Thac Gian Ward, Thanh Khue District</li>
+            </ul>
+            <ul>Policy
+              <li>Privacy Policy</li>
+              <li>Shipping Policy</li>
+              <li>Warranty Policy</li>
+              <li>Return Policy</li>
+            </ul>
+            <ul>Customer Support
+              <li>Shopping guide</li>
+              <li>Payment methods</li>
+              <li>Shipping method</li>
+              <li>Exchange - return policy</li>
+              <li>Refund policy</li>
+              <li>Frequently asked questions</li>
+            </ul>
+            <ul>Follow Thegioicongnghe.com
+              <li>
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </li>
+              <li>
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </li>
+              <li>
+                <i class="fab fa-twitter"></i>
+                Twitter
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
